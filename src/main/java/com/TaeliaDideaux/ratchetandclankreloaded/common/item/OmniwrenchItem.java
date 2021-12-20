@@ -16,7 +16,7 @@ public class OmniwrenchItem extends AxeItem {
 	@Override
     public float getDestroySpeed(ItemStack itemStack, BlockState blockState) {
         Block block = blockState.getBlock();
-        return block == BlockInit.BOLT_CRATE.get() ? super.getDestroySpeed(itemStack, blockState) * 20 : 0;
+        return block == BlockInit.BOLT_CRATE.get() ? super.getDestroySpeed(itemStack, blockState) * 40 : 0;
     }
 
 }

@@ -3,7 +3,6 @@ package com.TaeliaDideaux.ratchetandclankreloaded.core.init;
 import com.TaeliaDideaux.ratchetandclankreloaded.RatchetAndClankReloadedMod;
 
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -28,5 +27,5 @@ public class BlockInit {
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4.5F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 	
 	public static final RegistryObject<Block> RARITANIUM_BLOCK 			= BLOCKS.register("raritanium_block",
-			() -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+			() -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4.5F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 }
