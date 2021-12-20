@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        { "item": "ratchetandclankreloaded:raritanium_alloy_nugget" },
+        { "item": "ratchetandclankreloaded:raritanium_alloy_nugget" },
+        { "item": "ratchetandclankreloaded:raritanium_alloy_nugget" },
+        { "item": "ratchetandclankreloaded:raritanium_alloy_nugget" },
+        { "item": "ratchetandclankreloaded:raritanium_alloy_nugget" },
+        { "item": "ratchetandclankreloaded:raritanium_alloy_nugget" },
+        { "item": "ratchetandclankreloaded:raritanium_alloy_nugget" },
+        { "item": "ratchetandclankreloaded:raritanium_alloy_nugget" },
+        { "item": "ratchetandclankreloaded:raritanium_alloy_nugget" }
+    ],
+    "result": {
+        "item": "ratchetandclankreloaded:raritanium_alloy"
+    }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "ratchetandclankreloaded:blocks/deepslate_raritanium_ore"
+	}
+}

@@ -1,0 +1,28 @@
+package com.TaeliaDideaux.ratchetandclankreloaded.core.event;
+
+import com.TaeliaDideaux.ratchetandclankreloaded.RatchetAndClankReloadedMod;
+import com.TaeliaDideaux.ratchetandclankreloaded.common.entity.Clank;
+import com.TaeliaDideaux.ratchetandclankreloaded.core.init.EntityInit;
+import com.TaeliaDideaux.ratchetandclankreloaded.core.world.OreGeneration;
+
+import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+
+@Mod.EventBusSubscriber(modid = RatchetAndClankReloadedMod.MODID, bus = Bus.MOD)
+public class CommonModEvents {
+	
+	@SubscribeEvent
+	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(EntityInit.CLANK.get(), Clank.createAttributes().build());
+	}
+	
+	@SubscribeEvent
+	public static void commonSetup(FMLCommonSetupEvent event) {
+		event.enqueueWork(OreGeneration::registerOres);
+	}
+
+}
+ 

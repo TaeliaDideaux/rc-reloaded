@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="MIT"
+
+[[mods]]
+modId="ratchetandclankreloaded"
+version="1.0"
+displayName="Ratchet and Clank : Reloaded"
+# logoFile="examplemod.png"
+# credits="Thanks for this example mod goes to Java"
+authors="TaeliaDideaux"
+description='''
+Join Ratchet and Clank in this cubic world !
+'''

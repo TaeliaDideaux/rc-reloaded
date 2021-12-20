@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        { "item": "ratchetandclankreloaded:raritanium_block" }
+    ],
+    "result": {
+        "item": "ratchetandclankreloaded:raritanium_alloy",
+        "count": 9
+    }
+}

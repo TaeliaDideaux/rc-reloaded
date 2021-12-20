@@ -1,0 +1,22 @@
+{
+	"itemGroup.rcreloadedtab": "Ratchet & Clank : Reloaded",
+	"itemGroup.rcreloadedweaponstab": "Ratchet & Clank : Reloaded Weapons",
+	
+	"item.ratchetandclankreloaded.bolt": "Bolt",
+	"item.ratchetandclankreloaded.wrench_handle": "Wrench handle",
+	"item.ratchetandclankreloaded.raw_raritanium": "Raw raritanium",
+	"item.ratchetandclankreloaded.refined_raritanium": "Refined raritanium",
+	"item.ratchetandclankreloaded.raritanium_alloy": "Raritanium alloy",
+	"item.ratchetandclankreloaded.raritanium_alloy_nugget": "Raritanium alloy nugget",
+	
+	"item.ratchetandclankreloaded.omniwrench": "Omniwrench 3000",
+	"item.ratchetandclankreloaded.omniwrench10000": "Omniwrench 10000",
+	
+	"block.ratchetandclankreloaded.bolt_crate": "Bolt crate",
+	"block.ratchetandclankreloaded.raritanium_ore": "Raritanium ore",
+	"block.ratchetandclankreloaded.deepslate_raritanium_ore": "Deepslate Raritanium ore",
+	"block.ratchetandclankreloaded.raritanium_block": "Raritanium alloy block",
+	
+	"item.ratchetandclankreloaded.clank_spawn_egg": "Clank spawn egg",
+	"entity.ratchetandclankreloaded.clank": "Clank"
+}

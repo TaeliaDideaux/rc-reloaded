@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": {
+				"min": 1,
+				"max": 5
+			},
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "ratchetandclankreloaded:bolt"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}
