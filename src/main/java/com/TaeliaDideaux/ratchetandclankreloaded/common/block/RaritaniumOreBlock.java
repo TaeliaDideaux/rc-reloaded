@@ -11,7 +11,7 @@ public class RaritaniumOreBlock extends OreBlock{
 
 	public RaritaniumOreBlock(Properties properties) {
 		super(properties);
-	    this.xpRange = UniformInt.of(3, 7);
+	    this.xpRange = UniformInt.of(5, 9);
 	}
 	
 	@Override

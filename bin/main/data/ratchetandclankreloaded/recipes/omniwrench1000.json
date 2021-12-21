@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "l l",
+        "o/o",
+        " g "
+    ],
+    "key": {
+        "l": { "item": "minecraft:light_gray_dye" },
+        "o": { "item": "minecraft:orange_dye" },
+        "g": { "item": "minecraft:gray_dye" },
+        "/": { "item": "ratchetandclankreloaded:omniwrench" }
+    },
+    "result": {
+        "item": "ratchetandclankreloaded:omniwrench10000",
+        "count": 1
+    }
+}

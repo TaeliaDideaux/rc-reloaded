@@ -29,7 +29,7 @@ public final class ItemInit {
 	
 	public static final RegistryObject<Item> RAW_RARITANIUM 					= ITEMS.register("raw_raritanium",
 			() -> new Item(new Item.Properties().tab(RatchetAndClankReloadedMod.RCRELOADED_TAB)));
-	
+
 	public static final RegistryObject<Item> REFINED_RARITANIUM 				= ITEMS.register("refined_raritanium",
 			() -> new Item(new Item.Properties().tab(RatchetAndClankReloadedMod.RCRELOADED_TAB)));
 	
