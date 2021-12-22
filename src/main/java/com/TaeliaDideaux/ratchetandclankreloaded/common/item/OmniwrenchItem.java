@@ -2,6 +2,7 @@ package com.TaeliaDideaux.ratchetandclankreloaded.common.item;
 
 import com.TaeliaDideaux.ratchetandclankreloaded.core.init.BlockInit;
 import com.TaeliaDideaux.ratchetandclankreloaded.core.init.ToolMaterialInit;
+
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;

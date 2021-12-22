@@ -33,6 +33,6 @@ public class RatchetAndClankReloadedMod {
 	};
 	
 	public static final CreativeModeTab RCRELOADED_WEAPONS_TAB = new CreativeModeTab("rcreloadedweaponstab") {
-		@Override public ItemStack makeIcon() { return ItemInit.OMNIWRENCH.get().getDefaultInstance(); }
+		@Override public ItemStack makeIcon() { return ItemInit.OMNIWRENCH10000.get().getDefaultInstance(); }
 	};
 }
