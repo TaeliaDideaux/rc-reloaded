@@ -28,6 +28,7 @@ public class Clank extends TamableAnimal implements IAnimatable {
 	public Clank(EntityType<Clank> entityType, Level level) {
         super(entityType, level);
         this.noCulling = true;
+        this.setTame(true);
 	}
 	
 	protected void registerGoals() {

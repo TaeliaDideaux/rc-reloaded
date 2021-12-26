@@ -3,6 +3,8 @@ package com.TaeliaDideaux.ratchetandclankreloaded;
 import com.TaeliaDideaux.ratchetandclankreloaded.core.init.BlockInit;
 import com.TaeliaDideaux.ratchetandclankreloaded.core.init.EntityInit;
 import com.TaeliaDideaux.ratchetandclankreloaded.core.init.ItemInit;
+import com.TaeliaDideaux.ratchetandclankreloaded.core.init.SoundsInit;
+
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
@@ -22,6 +24,7 @@ public class RatchetAndClankReloadedMod {
 		BlockInit.BLOCKS.register(bus);
 		ItemInit.ITEMS.register(bus);
 		EntityInit.ENTITIES.register(bus);
+		SoundsInit.SOUNDS.register(bus);
 		
 		GeckoLib.initialize();
 	}
