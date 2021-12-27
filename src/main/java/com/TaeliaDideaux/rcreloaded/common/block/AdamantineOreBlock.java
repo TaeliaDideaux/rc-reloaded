@@ -6,12 +6,12 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.OreBlock;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class RaritaniumOreBlock extends OreBlock {
+public class AdamantineOreBlock extends OreBlock {
 	private final UniformInt xpRange;
 
-	public RaritaniumOreBlock(Properties properties) {
+	public AdamantineOreBlock(Properties properties) {
 		super(properties);
-	    this.xpRange = UniformInt.of(5, 9);
+	    this.xpRange = UniformInt.of(7, 12);
 	}
 	
 	@Override

@@ -1,6 +1,7 @@
 package com.TaeliaDideaux.rcreloaded.core.init;
 
 import com.TaeliaDideaux.rcreloaded.RatchetAndClankReloadedMod;
+import com.TaeliaDideaux.rcreloaded.common.block.AdamantineOreBlock;
 import com.TaeliaDideaux.rcreloaded.common.block.RaritaniumOreBlock;
 
 import net.minecraft.sounds.SoundEvents;
@@ -27,17 +28,13 @@ public class BlockInit {
 	public static final DeferredRegister<Block> 			BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, RatchetAndClankReloadedMod.MODID);
 
 	
+	public static final RegistryObject<Block> 				BOLT_CRATE = BLOCKS.register("bolt_crate", () -> new FallingBlock(BlockBehaviour.Properties.of(Material.WOOD).instabreak().sound(BOLT_CRATE_SOUND_TYPE)));
 	
-	public static final RegistryObject<Block> 				BOLT_CRATE = BLOCKS.register("bolt_crate",
-			() -> new FallingBlock(BlockBehaviour.Properties.of(Material.WOOD).instabreak().sound(BOLT_CRATE_SOUND_TYPE)));
+	public static final RegistryObject<RaritaniumOreBlock> 	RARITANIUM_ORE = BLOCKS.register("raritanium_ore", () -> new RaritaniumOreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3.0F).requiresCorrectToolForDrops()));
+	public static final RegistryObject<RaritaniumOreBlock> 	DEEPSLATE_RARITANIUM_ORE = BLOCKS.register("deepslate_raritanium_ore", () -> new RaritaniumOreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(4.5F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+	public static final RegistryObject<AdamantineOreBlock> 	ADAMANTINE_ORE = BLOCKS.register("adamantine_ore", () -> new AdamantineOreBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5.5F).requiresCorrectToolForDrops().sound(SoundType.ANCIENT_DEBRIS)));
 	
-	public static final RegistryObject<RaritaniumOreBlock> 	RARITANIUM_ORE = BLOCKS.register("raritanium_ore",
-			() -> new RaritaniumOreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3.0F).requiresCorrectToolForDrops()));
-	
-	public static final RegistryObject<RaritaniumOreBlock> 	DEEPSLATE_RARITANIUM_ORE = BLOCKS.register("deepslate_raritanium_ore",
-			() -> new RaritaniumOreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(4.5F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-	
-	public static final RegistryObject<Block> 				RARITANIUM_BLOCK = BLOCKS.register("raritanium_block",
-			() -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4.5F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+	public static final RegistryObject<Block> 				RARITANIUM_BLOCK = BLOCKS.register("raritanium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4.5F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+	public static final RegistryObject<Block> 				ADAMANTINE_BLOCK = BLOCKS.register("adamantine_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4.5F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 	
 }

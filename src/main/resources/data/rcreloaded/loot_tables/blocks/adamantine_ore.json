@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "rcreloaded:deepslate_raritanium_ore",
+              "name": "rcreloaded:adamantine_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "rcreloaded:raw_raritanium"
+              "name": "rcreloaded:raw_adamantine"
             }
           ]
         }

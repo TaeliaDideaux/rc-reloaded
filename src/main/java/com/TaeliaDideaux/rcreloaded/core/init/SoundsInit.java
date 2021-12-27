@@ -14,7 +14,6 @@ public final class SoundsInit {
 	
 	public static final DeferredRegister<SoundEvent> 	SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, RatchetAndClankReloadedMod.MODID);
 	
-	public static final RegistryObject<SoundEvent> 		BOLT_CRATE_BREAKING = SOUNDS.register("block.bolt_crate.break", 
-			() -> new SoundEvent(new ResourceLocation(RatchetAndClankReloadedMod.MODID, "block.bolt_crate.break")));
+	public static final RegistryObject<SoundEvent> 		BOLT_CRATE_BREAKING = SOUNDS.register("block.bolt_crate.break", () -> new SoundEvent(new ResourceLocation(RatchetAndClankReloadedMod.MODID, "block.bolt_crate.break")));
 
 }
