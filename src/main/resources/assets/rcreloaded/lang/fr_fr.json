@@ -1,0 +1,22 @@
+{
+	"itemGroup.rcreloadedtab": "Ratchet & Clank : Reloaded",
+	"itemGroup.rcreloadedweaponstab": "Ratchet & Clank : Reloaded Armes",
+	
+	"item.rcreloaded.bolt": "Boulon",
+	"item.rcreloaded.wrench_handle": "Manche de clé",
+	"item.rcreloaded.raw_raritanium": "Raritanium pur",
+	"item.rcreloaded.refined_raritanium": "Raritanium raffiné",
+	"item.rcreloaded.raritanium_alloy": "Alliage de raritanium",
+	"item.rcreloaded.raritanium_alloy_nugget": "Pépite d'alliage de raritanium",
+	
+	"item.rcreloaded.omniwrench": "SuperClé 3000",
+	"item.rcreloaded.omniwrench10000": "SuperClé 10000",
+	
+	"block.rcreloaded.bolt_crate": "Caisse de boulons",
+	"block.rcreloaded.raritanium_ore": "Minerai de raritanium",
+	"block.rcreloaded.deepslate_raritanium_ore": "Minerai de raritanium des abîmes",
+	"block.rcreloaded.raritanium_block": "Bloc d'alliage de raritanium",
+	
+	"item.rcreloaded.clank_spawn_egg": "Oeuf d'apparition de Clank",
+	"entity.rcreloaded.clank": "Clank"
+}

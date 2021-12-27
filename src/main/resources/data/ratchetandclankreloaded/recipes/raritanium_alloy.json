@@ -7,10 +7,10 @@
     ],
     "key": {
         "o": { "item": "minecraft:iron_ingot" },
-        "*": { "item": "ratchetandclankreloaded:refined_raritanium" }
+        "*": { "item": "rcreloaded:refined_raritanium" }
     },
     "result": {
-        "item": "ratchetandclankreloaded:raritanium_alloy",
+        "item": "rcreloaded:raritanium_alloy",
         "count": 1
     }
 }

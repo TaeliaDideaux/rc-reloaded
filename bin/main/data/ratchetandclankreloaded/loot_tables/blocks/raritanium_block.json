@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ratchetandclankreloaded:raritanium_block"
+          "name": "rcreloaded:raritanium_block"
         }
       ],
       "conditions": [

@@ -10,7 +10,7 @@
         "/": { "item": "minecraft:stick" }
     },
     "result": {
-        "item": "ratchetandclankreloaded:wrench_handle",
+        "item": "rcreloaded:wrench_handle",
         "count": 1
     }
 }

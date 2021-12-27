@@ -3,7 +3,7 @@ loaderVersion="[37,)"
 license="MIT"
 
 [[mods]]
-modId="ratchetandclankreloaded"
+modId="rcreloaded"
 version="1.0"
 displayName="Ratchet and Clank : Reloaded"
 # logoFile="examplemod.png"

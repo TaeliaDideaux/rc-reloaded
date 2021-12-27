@@ -10,7 +10,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "ratchetandclankreloaded:bolt"
+					"name": "rcreloaded:bolt"
 				}
 			],
 			"conditions": [

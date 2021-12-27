@@ -15,8 +15,8 @@ apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
 version = '1.0'
-group = 'com.TaeliaDideaux.ratchetandclankreloaded'
-archivesBaseName = 'ratchetandclankreloaded'
+group = 'com.TaeliaDideaux.rcreloaded'
+archivesBaseName = 'rcreloaded'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(16)
 

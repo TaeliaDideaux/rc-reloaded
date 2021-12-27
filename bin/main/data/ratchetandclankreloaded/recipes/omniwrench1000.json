@@ -2,17 +2,17 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "l l",
-        "o/o",
-        " g "
+        "*-*",
+        " / "
     ],
     "key": {
-        "l": { "item": "minecraft:light_gray_dye" },
-        "o": { "item": "minecraft:orange_dye" },
-        "g": { "item": "minecraft:gray_dye" },
-        "/": { "item": "ratchetandclankreloaded:omniwrench" }
+        "-": { "item": "rcreloaded:raritanium_block" },
+        "*": { "item": "rcreloaded:raritanium_alloy" },
+        "l": { "item": "rcreloaded:raritanium_alloy_nugget" },
+        "/": { "item": "rcreloaded:omniwrench" }
     },
     "result": {
-        "item": "ratchetandclankreloaded:omniwrench10000",
+        "item": "rcreloaded:omniwrench10000",
         "count": 1
     }
 }

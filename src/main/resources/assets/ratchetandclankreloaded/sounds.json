@@ -1,8 +1,0 @@
-{
-	"block.bolt_crate.break": {
-		"sounds": [
-			"ratchetandclankreloaded:bolt_crate_break"
-		],
-		"subtitle": "subtitles.block.generic.break"
-	}
-}

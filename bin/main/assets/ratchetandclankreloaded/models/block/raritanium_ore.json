@@ -1,6 +1,0 @@
-{
-	"parent": "block/cube_all",
-	"textures": {
-		"all": "ratchetandclankreloaded:blocks/raritanium_ore"
-	}
-}
