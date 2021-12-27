@@ -29,13 +29,11 @@ public class RatchetAndClankReloadedMod {
 		GeckoLib.initialize();
 	}
 	
-	// Creative tabs
-	
 	public static final CreativeModeTab RCRELOADED_TAB = new CreativeModeTab("rcreloadedtab") {
 		@Override public ItemStack makeIcon() { return ItemInit.BOLT_CRATE_ITEM.get().getDefaultInstance(); }
 	};
 	
 	public static final CreativeModeTab RCRELOADED_WEAPONS_TAB = new CreativeModeTab("rcreloadedweaponstab") {
-		@Override public ItemStack makeIcon() { return ItemInit.OMNIWRENCH10000.get().getDefaultInstance(); }
+		@Override public ItemStack makeIcon() { return ItemInit.OMNIWRENCH12000.get().getDefaultInstance(); }
 	};
 }

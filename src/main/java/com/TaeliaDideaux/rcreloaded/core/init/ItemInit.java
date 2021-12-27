@@ -44,5 +44,6 @@ public final class ItemInit {
 	
 	public static final RegistryObject<Item> 				OMNIWRENCH = ITEMS.register("omniwrench", () -> new OmniwrenchItem(Tiers.DIAMOND, new Item.Properties().tab(RatchetAndClankReloadedMod.RCRELOADED_WEAPONS_TAB)));
 	public static final RegistryObject<Item> 				OMNIWRENCH10000 = ITEMS.register("omniwrench10000", () -> new OmniwrenchItem(ToolMaterialInit.RARITANIUM, new Item.Properties().tab(RatchetAndClankReloadedMod.RCRELOADED_WEAPONS_TAB)));
+	public static final RegistryObject<Item> 				OMNIWRENCH12000 = ITEMS.register("omniwrench12000", () -> new OmniwrenchItem(ToolMaterialInit.ADAMANTINE, new Item.Properties().tab(RatchetAndClankReloadedMod.RCRELOADED_WEAPONS_TAB)));
 	
 }
