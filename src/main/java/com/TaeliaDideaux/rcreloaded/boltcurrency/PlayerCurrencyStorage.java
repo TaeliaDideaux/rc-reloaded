@@ -24,4 +24,14 @@ public class PlayerCurrencyStorage extends CurrencyStorage {
 			));
 		}
 	}
+
+	@Override
+	public void addBolts(int value) {
+		this.setBolts(this.getBolts() + value);
+	}
+
+	@Override
+	public void useBolts(int value) {
+		this.setBolts(this.getBolts() - value);
+	}
 }

@@ -36,6 +36,6 @@ public class PlayerCurrencyProvider implements ICapabilitySerializable<IntTag> {
         if (holder == null)
             throw new IllegalArgumentException("Can not deserialize to an instance that isn't the default implementation");
         holder.setBolts(nbt.getAsInt());
-    }
+    }	
 
 }

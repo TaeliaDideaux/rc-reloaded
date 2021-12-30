@@ -6,12 +6,12 @@ public interface ICurrencyCapability {
 	
 	void setBolts(int value);
 	
-	default void useBolts(int value) {
-		this.setBolts(this.getBolts() - value);
-	}
-	
 	default void addBolts(int value) {
 		this.setBolts(this.getBolts() + value);
+	}
+	
+	default void useBolts(int value) {
+		this.setBolts(this.getBolts() - value);
 	}
 
 }
