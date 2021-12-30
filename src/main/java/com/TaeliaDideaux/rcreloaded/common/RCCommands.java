@@ -21,12 +21,24 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 public class RCCommands {
 	
     public static void register(CommandDispatcher<CommandSourceStack> dispatcher) {
+    	
     	// Adding bolts to one's account
-        dispatcher.register(Commands.literal("ratchet")
+        dispatcher.register(Commands.literal("rcreloaded")
         		.then(Commands.argument("targets", EntityArgument.players())
 	                .then(Commands.literal("addBolts")
 	                        .then(Commands.argument("amount", IntegerArgumentType.integer())
 	                        		.executes(RCCommands::addBolts)
+	                        )
+	                )
+	          )
+        );
+    	
+    	// Removing bolts from one's account
+        dispatcher.register(Commands.literal("rcreloaded")
+        		.then(Commands.argument("targets", EntityArgument.players())
+	                .then(Commands.literal("removeBolts")
+	                        .then(Commands.argument("amount", IntegerArgumentType.integer())
+	                        		.executes(RCCommands::removeBolts)
 	                        )
 	                )
 	          )
@@ -46,6 +58,20 @@ public class RCCommands {
         
         return 0;
     }
+
+    private static int removeBolts(CommandContext<CommandSourceStack> context) throws CommandSyntaxException {
+        int amount = IntegerArgumentType.getInteger(context, "amount");
+        Collection<ServerPlayer> targets = EntityArgument.getPlayers(context, "targets");
+        
+        targets.stream().flatMap(entry -> entry
+        		.getCapability(CurrencyCapability.CURRENCY_CAPABILITY)
+        		.resolve()
+        		.stream())
+        	.forEach(cap -> cap.useBolts(amount));
+        
+        return 0;
+    }
+    
     
     
 
